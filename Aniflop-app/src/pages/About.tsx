@@ -81,6 +81,16 @@ export default function About() {
                         {user.email}
                     </span>
 
+                    <button
+                        className="logout-button"
+                        onClick={() => {
+                            localStorage.removeItem("user")
+                            navigate("/login")
+                        }}
+                    >
+                        Log out
+                    </button>
+
                 </div>
 
             )}

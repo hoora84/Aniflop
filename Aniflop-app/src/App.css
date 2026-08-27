@@ -658,3 +658,33 @@
   transform: scale(1.05);
   background-color: rgb(18, 54, 79);
 }
+
+/* Logout button */
+
+.logout-button {
+
+  padding: 10px 20px;
+
+  background-color: rgb(91, 140, 177);
+
+  color: white;
+
+  border: none;
+
+  border-radius: 50px;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+.logout-button:hover {
+
+  transform: scale(1.05);
+
+  background-color: rgb(120, 170, 205);
+}
