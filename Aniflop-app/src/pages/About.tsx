@@ -118,7 +118,9 @@ export default function About() {
 
                 <br />
 
-                <button className="get-started-button">
+                <button className="get-started-button"
+                onClick={() => navigate("/get-started")}
+                >
                     Get Started
                 </button>
 
